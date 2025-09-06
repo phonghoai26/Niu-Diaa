@@ -178,7 +178,7 @@
             left: 50%;
             transform: translate(-50%, -50%);
             z-index: 20;
-            font-size: 4rem;
+            font-size: 2.8rem;
             font-weight: bold;
             color: #ff1493;
             text-shadow: 
@@ -360,7 +360,7 @@
         .birthday-title {
             position: relative;
             z-index: 20;
-            font-size: 4rem;
+            font-size: 2.8rem;
             font-weight: bold;
             color: #ff1493;
             text-shadow: 
@@ -596,7 +596,7 @@
                 font-size: 1.5rem;
             }
             .birthday-title {
-                font-size: 2.5rem;
+                font-size: 1.75rem;
                 letter-spacing: 5px;
             }
             .matrix-text {
@@ -612,7 +612,7 @@
 
         @media (max-width: 480px) {
             .birthday-title {
-                font-size: 2rem;
+                font-size: 1.4rem;
                 letter-spacing: 3px;
             }
             .matrix-column {
@@ -819,7 +819,7 @@
                 
                 setTimeout(() => {
                     titleElement.textContent = count.toString();
-                    titleElement.style.fontSize = '8rem';
+                    titleElement.style.fontSize = '5.6rem';
                     titleElement.style.color = '#ff6b6b';
                     titleElement.style.animation = 'sparkleText 0.8s ease-in-out, titleGlow 0.8s ease-in-out';
                     
@@ -835,7 +835,7 @@
                         } else {
                             // Reset styles and start messages
                             setTimeout(() => {
-                                titleElement.style.fontSize = '4rem';
+                                titleElement.style.fontSize = '2.8rem';
                                 titleElement.style.color = '#ff1493';
                                 titleElement.style.animation = 'sparkleText 3s ease-in-out infinite';
                                 callback();
